@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "Holub homepage",
+  "description": "Holub homepage",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Olena Holub <else.golub@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.215",
     "gatsby-link": "^1.6.37",

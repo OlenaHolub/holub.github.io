@@ -1,10 +1,12 @@
 import React from 'react';
+import indexStyles from '../styles/index.module.css';
 
 const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your site.</p>
-  </div>
+    <div className={indexStyles.wrapper}>
+        <div className={indexStyles.index}>
+
+        </div>
+    </div>
 );
 
 export default IndexPage

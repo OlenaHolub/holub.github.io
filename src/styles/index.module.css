@@ -1,0 +1,21 @@
+a:global {
+    text-decoration: none;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: url(../img/index-bg.jpg) no-repeat center;
+    background-size: cover;
+    justify-content: space-between;
+}
+
+.index {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
