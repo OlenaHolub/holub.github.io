@@ -1,8 +1,11 @@
 import React from 'react';
+import contactStyles from '../styles/contact.module.css';
 
 const ContactPage = () => (
-    <div>
-        <h1>Hi from the contact page</h1>
+    <div className={contactStyles.wrapper}>
+        <div className={contactStyles.index}>
+
+        </div>
     </div>
 );
 
