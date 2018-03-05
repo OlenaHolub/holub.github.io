@@ -1,19 +1,24 @@
-.wrapper {
-  padding-top: 120px;
-  background: url("../img/index-bg.png") repeat center; }
-
-.index {
+.about {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
-  align-content: center; }
+  align-content: center;
+  padding-top: 1rem; }
 
-.example img {
-  margin: 0;
-  max-width: 600px;
-  width: auto;
-  height: auto;
-  border: bisque 0.5rem solid; }
+.example {
+  padding: 0.5rem; }
+  .example img {
+    margin: 0;
+    max-width: 600px;
+    width: auto;
+    height: auto;
+    border: bisque 0.5rem solid; }
+    @media only screen and (max-width: 620px) {
+      .example img {
+        max-width: 400px; } }
+    @media only screen and (max-width: 385px) {
+      .example img {
+        max-width: 200px; } }
 
 /*# sourceMappingURL=about.module.css.map */

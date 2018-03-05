@@ -1,34 +1,41 @@
 .footerWrapper {
-  position: fixed;
-  width: 100vw;
-  background: linear-gradient(178.4345340695deg, #7a2736 1.2717219589%, #792636 1.2717219589%, #672240 29.3671011058%, #672241 29.5454844655%, #421957 86.8957345972%);
-  z-index: 999; }
-  @media only screen and (min-width: 1367px) {
-    .footerWrapper {
-      width: calc(100vw - 17px); } }
+  flex: 0 0 auto;
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(178.4345340695deg, #7a2736 1.2717219589%, #792636 1.2717219589%, #672240 29.3671011058%, #672241 29.5454844655%, #421957 86.8957345972%); }
 
 .footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center;
+  height: 100%; }
+  @media only screen and (max-width: 485px) {
+    .footer {
+      justify-content: space-around; } }
 
-.title {
+.mail {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem 2rem; }
-  .title h1 {
+  padding: 0 1rem; }
+  .mail span {
     margin: 0;
     color: lightgoldenrodyellow; }
 
 .ul {
+  margin: 0;
+  padding: 0 1rem;
   list-style: none; }
+  @media only screen and (max-width: 485px) {
+    .ul {
+      display: none; } }
 
 .li {
   display: inline-block;
   margin-right: 1rem; }
-
-.link {
-  color: lavenderblush; }
+  .li a {
+    color: lavenderblush; }
 
 /*# sourceMappingURL=footer.module.css.map */

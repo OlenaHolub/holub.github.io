@@ -1,30 +1,63 @@
-.wrapper {
-  background: url("../img/index-bg.png") repeat center; }
-
-.content {
+.home {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 100%; }
+  height: calc(100vh - 160px); }
+  @media only screen and (max-width: 675px) {
+    .home {
+      flex-direction: column;
+      align-content: center;
+      height: 100%; } }
+  .home h1 {
+    display: none; }
+    @media only screen and (max-width: 485px) {
+      .home h1 {
+        display: block;
+        color: bisque;
+        text-shadow: -4px -2px 6px #9e4537; } }
 
 .photo {
   padding: 0 7rem 0 1rem; }
+  @media only screen and (max-width: 985px) {
+    .photo {
+      padding-right: 3rem; } }
+  @media only screen and (max-width: 775px) {
+    .photo {
+      padding: 0 1rem 0 0.5rem; } }
+  @media only screen and (max-width: 675px) {
+    .photo {
+      padding: 1rem; } }
   .photo img {
     display: block;
     margin: 0;
     max-width: 300px;
-    max-height: 400px;
     width: auto;
     height: auto;
     background: url("../img/holub.jpg") no-repeat 0 0; }
+    @media only screen and (max-width: 985px) {
+      .photo img {
+        max-width: 200px; } }
+    @media only screen and (max-width: 775px) {
+      .photo img {
+        max-width: 150px; } }
 
 .about {
   background: bisque;
   border-radius: 50px 0 0 50px; }
+  @media only screen and (max-width: 675px) {
+    .about {
+      border-radius: 50px;
+      margin: 0 auto 1rem; } }
   .about p {
     padding: 2rem;
     margin: 0;
     line-height: 1.8rem; }
+    @media only screen and (max-width: 985px) {
+      .about p {
+        line-height: 1.5rem; } }
+    @media only screen and (max-width: 775px) {
+      .about p {
+        padding: 1rem; } }
 
 /*# sourceMappingURL=home.module.css.map */

@@ -1,15 +1,13 @@
-.wrapper
-  padding-top: 120px
-  background: url('../img/index-bg.png') repeat center
-
-.index
+.about
   display: flex
   flex-flow: row wrap
   justify-content: space-around
   align-items: center
   align-content: center
+  padding-top: 1rem
 
 .example
+  padding: .5rem
 
   img
     margin: 0
@@ -17,3 +15,7 @@
     width: auto
     height: auto
     border: bisque 0.5rem solid
+    @media only screen and (max-width: 620px)
+      max-width: 400px
+    @media only screen and (max-width: 385px)
+      max-width: 200px
