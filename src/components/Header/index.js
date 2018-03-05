@@ -12,9 +12,9 @@ const ListLink = props =>
 const Header = () => (
     <div className={headerStyles.headerWrapper}>
         <div className={headerStyles.header}>
-            <h1 className={headerStyles.h1}>
-                Olena Holub
-            </h1>
+            <div className={headerStyles.title}>
+                <h1>Olena Holub</h1>
+            </div>
             <ul className={headerStyles.ul}>
                 <ListLink to='/'>Home</ListLink>
                 <ListLink to='about'>About</ListLink>

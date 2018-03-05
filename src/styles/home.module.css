@@ -1,0 +1,30 @@
+.wrapper {
+  background: url("../img/index-bg.png") repeat center; }
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%; }
+
+.photo {
+  padding: 0 7rem 0 1rem; }
+  .photo img {
+    display: block;
+    margin: 0;
+    max-width: 300px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    background: url("../img/holub.jpg") no-repeat 0 0; }
+
+.about {
+  background: bisque;
+  border-radius: 50px 0 0 50px; }
+  .about p {
+    padding: 2rem;
+    margin: 0;
+    line-height: 1.8rem; }
+
+/*# sourceMappingURL=home.module.css.map */

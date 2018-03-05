@@ -1,13 +1,16 @@
 import React from 'react';
-import indexStyles from '../styles/index.module.css';
+import homeStyles from '../styles/home.module.css';
+import holub from '../img/holub.jpg';
+
+let height = document.documentElement.clientHeight;
 
 const IndexPage = () => (
-    <div className={indexStyles.wrapper}>
-        <div className={indexStyles.index}>
-            <div className={indexStyles.photo}>
-                <p></p>
+    <div className={homeStyles.wrapper} style={{height: height}}>
+        <div className={homeStyles.content}>
+            <div className={homeStyles.photo}>
+                <img src={holub} alt='Olena Holub'/>
             </div>
-            <div className={indexStyles.about}>
+            <div className={homeStyles.about}>
                 <p>Hi! My name is Olena Holub! I have an experience in
                     developing web apps using Python framework Django and Django
                     Rest Framework for building REST architecture. Also I have

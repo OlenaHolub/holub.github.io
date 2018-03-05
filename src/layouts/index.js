@@ -2,9 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import Header from '../components/Header';
-// import 'bootstrap/dist/css/bootstrap.css';
-
-let height = document.documentElement.clientHeight;
 
 const Wrapper = ({children}) => (
     <div>
@@ -16,7 +13,7 @@ const Wrapper = ({children}) => (
             ]}
         />
         <Header/>
-        <div style={{height: height}}>
+        <div>
             {children()}
         </div>
     </div>
