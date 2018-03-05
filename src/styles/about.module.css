@@ -7,8 +7,7 @@
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
-  align-content: center;
-  height: 100%; }
+  align-content: center; }
 
 .example img {
   margin: 0;

@@ -21,6 +21,7 @@ module.exports = {
         "react/no-unescaped-entities": "off",
         "class-methods-use-this": "off",
         "jsx-a11y/anchor-is-valid": "off",
+        "jsx-a11y/anchor-has-content": "off",
         "no-useless-escape": [0],
         "declaration": "parens-new-line",
     }

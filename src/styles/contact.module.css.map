@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,QAAQ;EACN,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,MAAM,EAAE,IAAI;EACZ,eAAe,EAAE,aAAa;;AAEhC,MAAM;EACJ,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;EACvB,cAAc,EAAE,MAAM;EACtB,SAAS,EAAE,CAAC",
-"sources": ["contact.module.sass"],
-"names": [],
-"file": "contact.module.css"
-}

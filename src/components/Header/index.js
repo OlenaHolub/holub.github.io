@@ -19,7 +19,6 @@ const Header = () => (
       <ul className={headerStyles.ul}>
         <ListLink to="/">Home</ListLink>
         <ListLink to="about">About</ListLink>
-        <ListLink to="contact">Contact</ListLink>
       </ul>
     </div>
   </div>
