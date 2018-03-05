@@ -3,24 +3,24 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import Header from '../components/Header';
 
-const Wrapper = ({children}) => (
+const Wrapper = ({ children }) => (
+  <div>
+    <Helmet
+      title="Holub homepage"
+      meta={[
+        { name: 'description', content: 'Holub homepage' },
+        { name: 'keywords', content: 'Holub, homepage' },
+      ]}
+    />
+    <Header />
     <div>
-        <Helmet
-            title='Holub homepage'
-            meta={[
-                {name: 'description', content: 'Holub homepage'},
-                {name: 'keywords', content: 'Holub, homepage'},
-            ]}
-        />
-        <Header/>
-        <div>
-            {children()}
-        </div>
+      {children()}
     </div>
+  </div>
 );
 
 Wrapper.propTypes = {
-    children: PropTypes.func,
+  children: PropTypes.func,
 };
 
-export default Wrapper
+export default Wrapper;
