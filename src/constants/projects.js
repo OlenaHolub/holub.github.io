@@ -5,7 +5,7 @@ import alexis from '../img/4.png';
 import lit from '../img/5.png';
 import rubblex from '../img/6.png';
 
-export const projects = [
+const projects = [
   {
     source: rest,
     alternative: 'rest',
@@ -37,3 +37,5 @@ export const projects = [
     title: 'Responsible web page',
   },
 ];
+
+export default projects;

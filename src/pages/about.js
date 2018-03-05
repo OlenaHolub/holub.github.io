@@ -1,6 +1,6 @@
 import React from 'react';
 import aboutStyles from '../styles/about.module.css';
-import { projects } from '../constants/projects';
+import projects from '../constants/projects';
 
 const Example = props => (
   <div className={aboutStyles.example}>
@@ -9,15 +9,13 @@ const Example = props => (
 );
 
 const AboutPage = () => (
-  <div className={aboutStyles.wrapper}>
-    <div className={aboutStyles.index}>
-      {projects.map(item => (
-        <Example
-          source={item.source}
-          alternative={item.alternative}
-          title={item.title}
-        />))}
-    </div>
+  <div className={aboutStyles.about}>
+    {projects.map(item => (
+      <Example
+        source={item.source}
+        alternative={item.alternative}
+        title={item.title}
+      />))}
   </div>
 );
 

@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Olena Holub <else.golub@gmail.com>",
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "gatsby": "^1.9.215",
     "gatsby-link": "^1.6.37",
     "gatsby-plugin-react-helmet": "^2.0.5",
