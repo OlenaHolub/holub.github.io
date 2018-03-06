@@ -1,0 +1,56 @@
+.home
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+  align-items: center
+  height: calc(100vh - 160px)
+  @media only screen and (max-width: 675px)
+    flex-direction: column
+    align-content: center
+    height: 100%
+
+  h1
+    display: none
+    @media only screen and (max-width: 485px)
+      display: block
+      color: bisque
+      text-shadow: -4px -2px 6px rgba(158, 69, 55, 1)
+
+
+.photo
+  padding: 0 7rem 0 1rem
+  @media only screen and (max-width: 985px)
+    padding-right: 3rem
+  @media only screen and (max-width: 775px)
+    padding: 0 1rem 0 .5rem
+  @media only screen and (max-width: 675px)
+    padding: 1rem
+
+  img
+    display: block
+    margin: 0
+    max-width: 300px
+    width: auto
+    height: auto
+    background: url('../img/holub.jpg') no-repeat 0 0
+    @media only screen and (max-width: 985px)
+      max-width: 200px
+    @media only screen and (max-width: 775px)
+      max-width: 150px
+
+.about
+  background: bisque
+  border-radius: 50px 0 0 50px
+  @media only screen and (max-width: 675px)
+    border-radius: 50px
+    margin: 0 auto 1rem
+
+  p
+    padding: 2rem
+    margin: 0
+    line-height: 1.8rem
+    @media only screen and (max-width: 985px)
+      line-height: 1.5rem
+    @media only screen and (max-width: 775px)
+      padding: 1rem
+

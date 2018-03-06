@@ -1,35 +1,30 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
+import 'font-awesome/css/font-awesome.min.css';
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import indexStyles from '../styles/index.module.css';
 
-import Header from '../components/Header'
-import './index.css'
-
-const TemplateWrapper = ({ children }) => (
-  <div>
+const Wrapper = ({ children }) => (
+  <div className={indexStyles.wrapper}>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Holub homepage"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Holub homepage' },
+        { name: 'keywords', content: 'Holub, homepage' },
       ]}
     />
     <Header />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
+    <div className={indexStyles.content}>
       {children()}
     </div>
+    <Footer />
   </div>
-)
+);
 
-TemplateWrapper.propTypes = {
+Wrapper.propTypes = {
   children: PropTypes.func,
-}
+};
 
-export default TemplateWrapper
+export default Wrapper;
