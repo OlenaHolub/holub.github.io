@@ -1,13 +1,13 @@
 ## Project description
 
-My personal homepage builed with using of Gatsby.js
+My personal homepage built with using of Gatsby.js
 
 ## Installation
 
 Download or clone current repository
 ```
-$ git clone https://github.com/OlenaHolub/holub.github.io.git
-$ $ cd holub.github.io
+$ git clone https://github.com/OlenaHolub/homepage.git
+$ $ cd homepage
 $ npm install
 ```
 
