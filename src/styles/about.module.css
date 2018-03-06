@@ -56,7 +56,8 @@
 .exampleText {
   max-width: 400px;
   height: 100%;
-  background: bisque; }
+  background: bisque;
+  padding: 0.5rem; }
   .exampleText h3 {
     padding: 0.5rem; }
   .exampleText p {

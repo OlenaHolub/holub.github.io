@@ -18,7 +18,7 @@ const Header = () => (
       </div>
       <ul className={headerStyles.ul}>
         <ListLink to="/">Home</ListLink>
-        <ListLink to="about">About</ListLink>
+        <ListLink to="/about">About</ListLink>
       </ul>
     </div>
   </div>
