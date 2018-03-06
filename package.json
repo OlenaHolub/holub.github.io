@@ -9,6 +9,8 @@
     "gatsby-link": "^1.6.37",
     "gatsby-plugin-react-helmet": "^2.0.5",
     "gatsby-plugin-typography": "^1.7.16",
+    "gatsby-source-filesystem": "^1.5.26",
+    "gatsby-transformer-remark": "^1.7.34",
     "react-helmet": "^5.2.0",
     "typography": "^0.16.6",
     "typography-theme-de-young": "^0.16.9"

@@ -4,18 +4,55 @@
   justify-content: space-around
   align-items: center
   align-content: center
-  padding-top: 1rem
 
-.example
-  padding: .5rem
-
+.exampleDesktop
+  display: flex
+  flex-flow: row wrap
+  justify-content: space-around
+  align-items: center
+  align-content: center
+  div
+    padding: .5rem
   img
     margin: 0
     max-width: 600px
     width: auto
     height: auto
     border: bisque 0.5rem solid
+    @media only screen and (max-width: 768px)
+      max-width: 500px
     @media only screen and (max-width: 620px)
       max-width: 400px
     @media only screen and (max-width: 385px)
+      max-width: 300px
+
+.exampleMobile
+  display: flex
+  flex-flow: row wrap
+  justify-content: space-around
+  align-items: center
+  align-content: center
+  div
+    padding: .5rem
+  img
+    margin: 0
+    max-width: 400px
+    width: auto
+    height: auto
+    border: bisque 0.5rem solid
+    @media only screen and (max-width: 768px)
       max-width: 200px
+    @media only screen and (max-width: 620px)
+      max-width: 180px
+    @media only screen and (max-width: 385px)
+      max-width: 120px
+
+.exampleText
+  max-width: 400px
+  height: 100%
+  background: bisque
+  h3
+    padding: .5rem
+  p
+    padding: 1rem
+    margin: 0
