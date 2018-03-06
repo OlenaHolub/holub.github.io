@@ -2,8 +2,6 @@ import React from 'react';
 import homeStyles from '../styles/home.module.css';
 import holub from '../img/holub.jpg';
 
-// const height = document.documentElement.clientHeight;
-
 const IndexPage = () => (
   <div className={homeStyles.home}>
     <h1>Olena Holub</h1>
