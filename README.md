@@ -1,10 +1,8 @@
 ## Project description
-***
 
 My personal homepage builed with using of Gatsby.js
 
 ## Installation
-***
 
 Download or clone current repository
 ```
@@ -14,7 +12,6 @@ $ npm install
 ```
 
 ## Run
-***
 
 For running the project
 ```
