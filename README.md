@@ -17,7 +17,7 @@ For running the project
 ```
 $ gatsby develop
 ```
-D
+
 ## Deploy
 
 [Olena Holub - homepage](https://olenaholub.github.io/homepage/)
