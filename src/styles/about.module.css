@@ -3,22 +3,64 @@
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
-  align-content: center;
-  padding-top: 1rem; }
+  align-content: center; }
 
-.example {
-  padding: 0.5rem; }
-  .example img {
+.exampleDesktop {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center; }
+  .exampleDesktop div {
+    padding: 0.5rem; }
+  .exampleDesktop img {
     margin: 0;
     max-width: 600px;
     width: auto;
     height: auto;
     border: bisque 0.5rem solid; }
+    @media only screen and (max-width: 768px) {
+      .exampleDesktop img {
+        max-width: 500px; } }
     @media only screen and (max-width: 620px) {
-      .example img {
+      .exampleDesktop img {
         max-width: 400px; } }
     @media only screen and (max-width: 385px) {
-      .example img {
+      .exampleDesktop img {
+        max-width: 300px; } }
+
+.exampleMobile {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center; }
+  .exampleMobile div {
+    padding: 0.5rem; }
+  .exampleMobile img {
+    margin: 0;
+    max-width: 400px;
+    width: auto;
+    height: auto;
+    border: bisque 0.5rem solid; }
+    @media only screen and (max-width: 768px) {
+      .exampleMobile img {
         max-width: 200px; } }
+    @media only screen and (max-width: 620px) {
+      .exampleMobile img {
+        max-width: 180px; } }
+    @media only screen and (max-width: 385px) {
+      .exampleMobile img {
+        max-width: 120px; } }
+
+.exampleText {
+  max-width: 400px;
+  height: 100%;
+  background: bisque; }
+  .exampleText h3 {
+    padding: 0.5rem; }
+  .exampleText p {
+    padding: 1rem;
+    margin: 0; }
 
 /*# sourceMappingURL=about.module.css.map */

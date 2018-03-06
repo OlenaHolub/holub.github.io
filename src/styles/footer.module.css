@@ -10,31 +10,41 @@
   justify-content: space-between;
   align-items: center;
   height: 100%; }
-  @media only screen and (max-width: 485px) {
-    .footer {
-      justify-content: space-around; } }
+
+.span {
+  margin: 0;
+  padding: 0 1rem;
+  color: lightgoldenrodyellow;
+  text-align: center; }
+  @media only screen and (max-width: 600px) {
+    .span {
+      display: none; } }
 
 .mail {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 0 1rem; }
+  align-items: center; }
+  @media only screen and (max-width: 600px) {
+    .mail {
+      padding: 0 1rem; } }
+  @media only screen and (max-width: 600px) {
+    .mail {
+      padding: 0 0.3rem; } }
   .mail span {
     margin: 0;
     color: lightgoldenrodyellow; }
 
 .ul {
   margin: 0;
-  padding: 0 1rem;
   list-style: none; }
-  @media only screen and (max-width: 485px) {
-    .ul {
-      display: none; } }
 
 .li {
   display: inline-block;
   margin-right: 1rem; }
+  @media only screen and (max-width: 600px) {
+    .li {
+      margin-right: 0.5rem; } }
   .li a {
     color: lavenderblush; }
 

@@ -10,29 +10,37 @@
   justify-content: space-between
   align-items: center
   height: 100%
-  @media only screen and (max-width: 485px)
-    justify-content: space-around
+
+.span
+  margin: 0
+  padding: 0 1rem
+  color: lightgoldenrodyellow
+  text-align: center
+  @media only screen and (max-width: 600px)
+    display: none
 
 .mail
   display: flex
   flex-direction: column
   justify-content: center
   align-items: center
-  padding: 0 1rem
+  @media only screen and (max-width: 600px)
+    padding: 0 1rem
+  @media only screen and (max-width: 600px)
+    padding: 0 .3rem
   span
     margin: 0
     color: lightgoldenrodyellow
 
 .ul
   margin: 0
-  padding: 0 1rem
   list-style: none
-  @media only screen and (max-width: 485px)
-    display: none
 
 .li
   display: inline-block
   margin-right: 1rem
+  @media only screen and (max-width: 600px)
+    margin-right: .5rem
   a
     color: lavenderblush
 

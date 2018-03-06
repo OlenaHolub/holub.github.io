@@ -2,10 +2,8 @@ import rest from '../img/1.png';
 import people from '../img/2.png';
 import fitness from '../img/3.png';
 import alexis from '../img/4.png';
-import lit from '../img/5.png';
-import rubblex from '../img/6.png';
 
-const projects = [
+const projectsDesktop = [
   {
     source: rest,
     alternative: 'rest',
@@ -26,16 +24,6 @@ const projects = [
     alternative: 'alexis',
     title: 'Landing page',
   },
-  {
-    source: lit,
-    alternative: 'lit',
-    title: '“LIT” is  a version control system, made in the likeness of Git. System include work with CLI, Back-end and Front-end.',
-  },
-  {
-    source: rubblex,
-    alternative: 'rubblex',
-    title: 'Responsible web page',
-  },
 ];
 
-export default projects;
+export default projectsDesktop;
