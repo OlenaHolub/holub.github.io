@@ -1,12 +1,12 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import footerStyles from '../../styles/footer.module.css';
 import contacts from '../../constants/contacts';
 
 const Footer = () => (
   <div className={footerStyles.footerWrapper}>
     <div className={footerStyles.footer}>
-      <span className={footerStyles.span}>Feel free<br />to contact with me</span>
+      <span
+        className={footerStyles.span}>Feel free<br />to contact with me</span>
       <div className={footerStyles.mail}>
         <span>else.golub@gmail.com</span>
         <span>096-847-72-82</span>
